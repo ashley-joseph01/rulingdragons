@@ -1,0 +1,106 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Eczar:wght@400..800&display=swap');
+
+/* PALETTE */
+:root {
+    --darkest: #14191C;
+    --dark: #243539;
+    --accent: #364e52;
+    --contrast: #516569;
+    --lightest: #b4c9cc;
+}
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkest);
+    color: var(--lightest);
+    height: 100vh;
+}
+
+#styled {
+    /* font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal; */
+    font-size: 35px; 
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#current {
+    color: var(--contrast);
+}
+
+/* SPECIFICS */
+
+nav {
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+nav li {
+    list-style: none;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--lightest);
+}
+
+nav a:hover {
+    letter-spacing: 1.3px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.HERO {
+    /* background-image: url("../img/rain.jpg");
+    background-color: #000000;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;  */
+}
+
+footer {
+    margin-top: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
